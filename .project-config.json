@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3bELUFCmY9Tq4Yt.root:Nl0YPNM3V971BKgAHm7z@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/Ar7QgaUFSTxqceVE6SwXMu?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://3bELUFCmY9Tq4Yt.root:Nl0YPNM3V971BKgAHm7z@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/Ar7QgaUFSTxqceVE6SwXMu?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "Ar7QgaUFSTxqceVE6SwXMu"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/Ar7QgaUFSTxqceVE6SwXMu.git",
+    "expiration": "2026-09-10T10:01:08.268Z",
+    "token": "art_v2_x_1979384ce7e965d574ba897187624eb21c65913b?expires=1789034468",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "lumina-stage-site",
+  "path": "/home/ubuntu/lumina-stage-site",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "PegoZmSBjarH3JttGjWRCp",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "CUzfCWozEVemVB3ZmK92Y6",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Marcos V. Dutra",
+    "OWNER_OPEN_ID": "cP4fuY8JbmZSXLA4ZJEtoX",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "0b65659d-8589-4dc5-8042-d8bc37a27f4a",
+    "VITE_APP_ID": "Ar7QgaUFSTxqceVE6SwXMu",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663922384130/nWcMqYAWJCMpQVCn.png",
+    "VITE_APP_TITLE": "Lumina Stage — Shows de luzes sincronizados",
+    "VITE_FRONTEND_FORGE_API_KEY": "XefDiGgnZT35dqTR72xycj",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
